@@ -1,0 +1,8 @@
+.features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
+.features__chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.features__details { display: grid; grid-template-columns: 120px 1fr; align-items: center; gap: 10px 16px; margin: auto 0 0; }
+.features__details dt { font-weight: 700; }
+.features__details dd { display: flex; flex-wrap: wrap; gap: 8px; }
+
+@media (max-width: 960px) { .features { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .features__details { grid-template-columns: 1fr; } }

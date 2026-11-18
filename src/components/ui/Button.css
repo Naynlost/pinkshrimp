@@ -1,0 +1,12 @@
+.button { display: inline-flex; align-items: center; gap: 10px; padding: 18px 30px; border-radius: 999px; font-size: 18px; font-weight: 700; line-height: 22px; text-decoration: none; transition: transform 0.15s, box-shadow 0.15s; }
+.button--primary { background: var(--plum); color: var(--cream); box-shadow: 5px 5px 0 var(--rose); }
+.button--muted { background: var(--rose-light); color: var(--pink); box-shadow: 5px 5px 0 var(--rose); }
+.button--small { padding: 14px 22px; background: var(--plum); color: var(--pink); font-size: 16px; line-height: 20px; box-shadow: 3px 3px 0 var(--rose); }
+.button--ghost { padding: 15px 28px; border: 3px solid var(--plum); }
+
+.button--primary:hover, .button--muted:hover { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--rose); }
+.button--small:hover { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--rose); }
+.button--ghost:hover { background: var(--plum); color: var(--cream); }
+
+@media (max-width: 560px) { .button { padding: 15px 22px; font-size: 16px; } }
+@media (prefers-reduced-motion: reduce) { .button { transition: none; } }

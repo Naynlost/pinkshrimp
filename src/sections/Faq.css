@@ -1,0 +1,4 @@
+.faq { display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 56px; }
+.faq__item { display: grid; align-content: start; gap: 10px; padding: 24px 0 32px; border-top: 3px solid var(--plum); }
+
+@media (max-width: 960px) { .faq { grid-template-columns: 1fr; } }

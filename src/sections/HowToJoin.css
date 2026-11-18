@@ -1,0 +1,6 @@
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-bottom: 44px; }
+.steps__number { font: 700 64px/1 var(--font-pixel); }
+.steps h3 { font-size: 24px; line-height: 1.25; }
+.steps__actions { display: flex; flex-wrap: wrap; gap: 16px; }
+
+@media (max-width: 960px) { .steps { grid-template-columns: 1fr; } }

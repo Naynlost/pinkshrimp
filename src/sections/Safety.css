@@ -1,0 +1,7 @@
+.safety { display: grid; grid-template-columns: repeat(4, 1fr); align-items: start; gap: 40px; }
+.safety__point { display: grid; justify-items: start; gap: 10px; padding-top: 20px; border-top: 3px solid var(--shrimp); }
+.safety__point h4 { color: var(--cream); }
+.safety__point p { color: var(--muted-on-dark); }
+
+@media (max-width: 960px) { .safety { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .safety { grid-template-columns: 1fr; } }

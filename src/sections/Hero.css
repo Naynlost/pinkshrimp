@@ -1,0 +1,24 @@
+.hero { padding-top: clamp(40px, 6vw, 80px); }
+.hero__intro { display: flex; align-items: center; gap: 56px; }
+.hero__text { display: grid; flex: 1; justify-items: start; gap: 24px; }
+.hero__eyebrow { font: 500 20px/1.3 var(--font-pixel); }
+.hero__lead { max-width: 660px; font-size: clamp(18px, 2vw, 22px); line-height: 1.5; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 16px; padding-top: 8px; }
+
+.hero__sticker { display: grid; flex: none; place-items: center; width: 245px; }
+.hero__sticker img { width: 230px; height: 230px; border: 3px solid var(--plum); border-radius: 28px; box-shadow: 8px 8px 0 var(--plum); object-fit: cover; transform: rotate(4deg); }
+
+.hero__figure { display: grid; justify-items: end; gap: 12px; margin-top: 64px; }
+.hero__figure img { width: 100%; height: auto; }
+.hero__figure figcaption { font-size: 15px; font-weight: 500; text-align: right; }
+
+.hero__stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin: 40px 0 0; }
+.hero__stats dt { margin-bottom: 4px; font: 700 52px/1 var(--font-pixel); }
+.hero__stats dd { font-weight: 500; }
+
+@media (max-width: 960px) {
+  .hero__intro { flex-direction: column-reverse; align-items: flex-start; gap: 32px; }
+  .hero__sticker { width: 170px; }
+  .hero__sticker img { width: 150px; height: 150px; }
+  .hero__stats { grid-template-columns: 1fr; gap: 24px; }
+}

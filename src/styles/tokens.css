@@ -1,0 +1,17 @@
+:root {
+  --plum: #4b1122;
+  --cream: #fff6f0;
+  --pink: #f7dee9;
+  --shrimp: #f1b9c2;
+  --rose: #c56686;
+  --rose-light: #d38ca4;
+  --peach: #ffe3c2;
+  --orange: #ffb564;
+  --frame: #891b04;
+  --muted-on-dark: #f1d3dd;
+  --line-on-dark: #7a2e3f;
+  --white: #fff;
+
+  --font-pixel: "Pixelify Sans", "Courier New", monospace;
+  --font-body: "Rubik", system-ui, sans-serif;
+}

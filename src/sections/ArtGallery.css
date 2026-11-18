@@ -1,0 +1,9 @@
+.gallery { margin-top: 40px; }
+.gallery__title { margin-bottom: 20px; color: var(--frame); font: 800 24px/1.2 var(--font-body); }
+.gallery__row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.gallery__art { position: relative; height: 112px; overflow: hidden; border: 8px solid var(--frame); background: var(--shrimp); }
+.gallery__art img { width: 100%; height: 100%; object-fit: cover; }
+.gallery__badge { position: absolute; top: 8px; left: 8px; padding: 3px 10px; border-radius: 6px; background: var(--frame); color: var(--peach); font: 500 14px/1.3 var(--font-pixel); }
+.gallery figcaption { margin-top: 10px; color: var(--frame); font-size: 16px; font-weight: 600; text-align: center; }
+
+@media (max-width: 960px) { .gallery__row { grid-template-columns: repeat(2, 1fr); } }
