@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       <figure className="hero__figure">
-        <img src="/img/hero.png" alt="Pink Shrimp" />
+        <img src="/img/hero-art.png" alt="Pink Shrimp" />
         <figcaption>
           Арт: <AppLink href={telegramUser("oddosss")}>oddosss</AppLink> · осеннее оформление сервера
           <br />авторка изображения: alune
